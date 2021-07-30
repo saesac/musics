@@ -15,7 +15,7 @@ document.querySelector('.entryPauseButtonMinimize').addEventListener('click', e 
     }
 });
 
-let btn = document.createElement('button');
+/*let btn = document.createElement('button');
 btn.innerHTML = '음원 다운로드';
 btn.addEventListener('click', e => {
     window.open(file.src, '_blank');
@@ -30,4 +30,4 @@ css.borderRadius = '4px';
 css.fontSize = '1em';
 css.padding = '9px 20px';
 css.marginLeft = '10px';
-document.querySelector('.css-bl8trf').appendChild(btn);
+document.querySelector('.css-bl8trf').appendChild(btn);*/
