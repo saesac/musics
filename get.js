@@ -14,11 +14,13 @@ document.querySelector('.entryPauseButtonMinimize').addEventListener('click', e 
     }
 });
 
+/*
 let btn = document.createElement('button');
 btn.innerHTML = '음원 다운로드';
 btn.addEventListener('click', e => {
     window.open(file.src, '_blank');
 });
+*/
 
 //button css code
 let css = btn.style;
