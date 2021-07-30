@@ -5,6 +5,7 @@ document.querySelector('.entryRunButtonBigMinimize').addEventListener('click', e
 });
 document.querySelector('.entryStopButtonMinimize').addEventListener('click', e => {
     file.pause();
+    file.currentTime = 0;
 });
 document.querySelector('.entryPauseButtonMinimize').addEventListener('click', e => {
     if (file.paused) {
@@ -19,7 +20,6 @@ btn.innerHTML = '음원 다운로드';
 btn.addEventListener('click', e => {
     window.open(file.src, '_blank');
 });
-
 
 //button css code
 let css = btn.style;
